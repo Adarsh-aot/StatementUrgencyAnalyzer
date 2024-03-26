@@ -16,6 +16,15 @@ numpy: NumPy is the fundamental package for scientific computing with Python.
 ```bash
 pip install transformers torch numpy
 ```
+
+
+running the main file 
+```bash
+python main.py
+```
+
+
+
 Usage
 Here's how you can use Statement Urgency Analyzer in your Python code:
 
@@ -25,7 +34,16 @@ from classes import StatementUrgencyAnalyzer
 result = StatementUrgencyAnalyzer()
 print(result.determine_statement_urgency('Dear  Dr Hasan  Dynacare has a pending request for information for your patinet Philip Moy Our request was sent to your office on 2023/03/29 and now is urgently required.'))
 ```
+
+
 output
 ``` output
 ['urgent', 'Dear  Dr Hasan  Dynacare has a pending request for information for your patinet Philip Moy Our request was sent to your office on 2023/03/29 and now is urgently required.']
+```
+
+
+
+testing
+```bash
+python text.py
 ```
